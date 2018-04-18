@@ -2,7 +2,7 @@ var vRViewPlayer = function(elementIdName, options) {
   console.log('Creating VR View Player');
   return new VRView.Player(elementIdName, options);
 }
-https://cdn.pbrd.co/images/Hhf02Eu.jpg/download',
+https://cdn.pbrd.co/images/Hhf02Eu.jpg/download',false
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'assets/dolphins.jpg',
   image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/dolphins.jpg',
