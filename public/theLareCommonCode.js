@@ -1,7 +1,7 @@
 var vRViewPlayer = function(elementIdName, options) {
   console.log('Creating VR View Player');
-  return new VRView.Player(elementIdName, options);}
-false,
+  return new VRView.Player(elementIdName, options);
+}
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'assets/dolphins.jpg',
   image: 'https://pasteboard.co/images/Hhf02Eu.jpg/download',
